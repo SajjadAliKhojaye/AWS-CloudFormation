@@ -102,7 +102,7 @@ Resources:
           from botocore.exceptions import ClientError
 
           def send_email(recipientEmail):
-              SENDER = "k180208@nu.edu.pk"
+              SENDER = "example@gmail.com"
               RECIPIENT = recipientEmail 
               AWS_REGION = "us-east-1"
               SUBJECT = "DevOps A1 Email"
